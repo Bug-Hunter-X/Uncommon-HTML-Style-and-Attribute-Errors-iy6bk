@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Corrected HTML Code</title>
+</head>
+<body>
+  <div id="myDiv"></div>
+  <script>
+    // Correct way to access and modify element style
+    document.getElementById("myDiv").style.display = "none";
+    document.getElementById('myDiv').style.display = 'none';
+
+    // Correct way to set attributes
+    document.getElementById('myDiv').setAttribute('style', 'color:red;');
+  </script>
+</body>
+</html>
