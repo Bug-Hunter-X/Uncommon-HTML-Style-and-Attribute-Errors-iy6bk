@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Uncommon HTML Bug</title>
+</head>
+<body>
+  <div id="myDiv"></div>
+  <script>
+    //Incorrect way to access the element's style
+    document.getElementById("myDiv").style.display = "none";
+    //Correct way to use style
+    document.getElementById('myDiv').style.display = 'none';
+
+    //Another example of incorrect way to set attribute
+    document.getElementById('myDiv').attribute.style = "color:red;";
+    //Correct way to set attribute
+    document.getElementById('myDiv').setAttribute('style', 'color:red;');
+  </script>
+</body>
+</html>
