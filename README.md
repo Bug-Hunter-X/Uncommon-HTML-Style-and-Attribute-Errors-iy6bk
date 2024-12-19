@@ -1,0 +1,1 @@
+This repository showcases a couple of uncommon errors that can occur when working with HTML, specifically focusing on how to correctly access and manipulate element styles and attributes. The `bug.html` file contains the erroneous code, while `bugSolution.html` provides the corrected version with explanations.
